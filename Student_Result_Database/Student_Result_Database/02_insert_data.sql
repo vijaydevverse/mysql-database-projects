@@ -9,7 +9,12 @@ INSERT INTO Students VALUES
 (222,'Kailas','BCA',3),
 (999,'Jothish','BSC',3),
 (888,'Lokesh','BSC',3),
-(100,'Parvathy','Commerce',2);
+(100,'Parvathy','Commerce',2),
+(101,'Arun','Computer Science',2),
+(102,'Meera','BCA',2),
+(103,'Rahul','Commerce',3),
+(104,'Sneha','BSC',2),
+(105,'Fahad','Computer Science',3);
 
 -- Subjects 
 INSERT INTO Subjects VALUES
@@ -27,17 +32,7 @@ INSERT INTO Marks(StudentID,SubjectID,Marks) VALUES
 (555,'CC009',95),
 (333,'ML007',35),
 (333,'M008',67),
-(333,'CC009',78);
-
--- Again inserting the values to the Students and Marks to find students who are failed.
-INSERT INTO Students VALUES
-(101,'Arun','Computer Science',2),
-(102,'Meera','BCA',2),
-(103,'Rahul','Commerce',3),
-(104,'Sneha','BSC',2),
-(105,'Fahad','Computer Science',3);
-
-INSERT INTO Marks(StudentID,SubjectID,Marks) VALUES
+(333,'CC009',78),
 (101,'ML007',25),
 (101,'M008',30),
 (101,'CC009',28),

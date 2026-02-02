@@ -9,7 +9,12 @@ INSERT INTO Students VALUES
 (222,'Kailas','BCA',3),
 (999,'Jothish','BSC',3),
 (888,'Lokesh','BSC',3),
-(100,'Parvathy','Commerce',2);
+(100,'Parvathy','Commerce',2),
+(101,'Arun','Computer Science',2),
+(102,'Meera','BCA',2),
+(103,'Rahul','Commerce',3),
+(104,'Sneha','BSC',2),
+(105,'Fahad','Computer Science',3);
 
 -- Subjects 
 INSERT INTO Subjects VALUES
@@ -27,4 +32,19 @@ INSERT INTO Marks(StudentID,SubjectID,Marks) VALUES
 (555,'CC009',95),
 (333,'ML007',35),
 (333,'M008',67),
-(333,'CC009',78);
+(333,'CC009',78),
+(101,'ML007',25),
+(101,'M008',30),
+(101,'CC009',28),
+(102,'ML007',35),
+(102,'M008',72),
+(102,'CC009',20),
+(103,'ML007',10),
+(103,'M008',22),
+(103,'CC009',33),
+(104,'ML007',66),
+(104,'M008',58),
+(104,'CC009',74),
+(105,'ML007',39),
+(105,'M008',15),
+(105,'CC009',29);

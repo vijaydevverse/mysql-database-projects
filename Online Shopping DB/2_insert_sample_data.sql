@@ -35,9 +35,4 @@ INSERT INTO OrderDetails(OrderID,ProductID,Quantity) VALUES
 (13,4,1),   
 (13,1,1),   
 (14,5,1),  
-(15,2,3); 
-
-SELECT * FROM OrderDetails;
-
-SELECT * FROM OrderDetails
-WHERE OrderID IN(1,2,3,4,5);
+(15,2,3);
